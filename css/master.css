@@ -29,7 +29,7 @@ a {
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     /* portrait phones */
     a {
-    	background-size: 300px 188px;
+    	background-size: 400px 250px;
     }
 
     #page  {
