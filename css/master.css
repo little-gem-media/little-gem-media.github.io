@@ -1,0 +1,38 @@
+body {
+	color: #fff;
+	margin-top: 15%;
+}
+
+a, a:visited, a:link {
+		color: #fff;
+		text-decoration: none;
+}
+
+a {
+	display: block;
+	background: url('../img/holding.gif') no-repeat;
+	text-indent: -1000em;
+	overflow: hidden;
+	width: 632px;
+	height: 395px;
+}
+
+#page {
+	text-align: center;
+	width: 632px;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {/* tablets and desktop */}
+@media only screen and (max-width: 767px) {/* phones */}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+    a {
+    	background-size: 300px 188px;
+    }
+
+    #page  {
+    	width: 300px;
+    }
+}
